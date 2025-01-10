@@ -1,0 +1,7 @@
+query RunInput {
+  discountNode {
+    metafield(namespace: "$app:test-malba-disc", key: "function-configuration") {
+      value
+    }
+  }
+}
